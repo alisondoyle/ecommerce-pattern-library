@@ -1,0 +1,27 @@
+title: "Buttons"
+description: |
+  This contains all of the buttons that will appear on my website.
+
+patterns:
+  basic:
+    title: "Basic Button"
+    description: |
+      This button is used throughout the website as a call-to-action button.
+    fields:
+      - name: text
+        type: string
+        example: "Proceed to checkout"
+      - name: url
+        type: string
+        example: "#"
+  nav:
+    title: "Navigation Button"
+    description: |
+      These buttons are used in the website for menu navigation.
+    fields:
+      - name: text
+        type: string
+        example: "Shop"
+      - name: url
+        type: string
+        example: "#"

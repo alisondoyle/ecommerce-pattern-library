@@ -1,2 +1,19 @@
 permalink: pretty
 theme: jekyll_patternbot
+
+patternbot:
+  font-url: "https://use.typekit.net/iuw2ono.css"
+
+  colors:
+    sidebar: "--color-secondary"
+    accent: "--color-accent"
+
+  rationales:
+    typefaces.primary: |
+      Neue Haas Grotesk was chosen because it is a close font to Helvetica. Helvetica is my favourite font despite it being widely used throughout the world of print. I like how clean that it is. I also appreciate how easily readable it is. Because Neue Haas Grotesk is so similar I chose it as my only font to ensure that the processing speed is optimized for my website.
+    colors.primary: |
+      For my primary colours I chose black and white. Reason being that I wanted it to be very simple and aesthetically pleasing. There's also a perfect contrast between black and white. Black was chosen primarily for text and white was chosen as more of a background colour.
+    colors.secondary: |
+      My secondary colour is a light grey. The reason behind this is because I wanted only one accent colour and the rest to be shades of black. This colour is used in my sidebar text and product image background colours.
+    colors.accent: |
+      The colour that I chose as my accent colour is a bright orange because I feel that is gender-neutral and is easily readable. It pops really well off the page and will be used for navigation when a page is selected and when some buttons are selected. A tint of the accent colour will also be used on product photos when hovering above them to show what has been selected.

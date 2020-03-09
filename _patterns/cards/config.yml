@@ -1,0 +1,19 @@
+title: "Cards"
+description: |
+  This contains all of the cards that will appear on my website.
+
+patterns:
+  cards:
+    title: "Basic Card"
+    description: |
+      This card is used throughout the website as a card.
+    fields:
+      - name: shoe
+        type: string
+        example: "air-force.jpg"
+      - name: product-name
+        type: string
+        example: "OFF WHITE X Nike Air Force 1"
+      - name: description
+        type: string
+        example: "low-top sneaker"

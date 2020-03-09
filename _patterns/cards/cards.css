@@ -1,0 +1,9 @@
+h2 {
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+p {
+  color: var(--color-neutral-grey);
+  font-weight: 100;
+}

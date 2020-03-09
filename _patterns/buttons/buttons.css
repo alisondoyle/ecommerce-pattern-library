@@ -1,0 +1,18 @@
+.btn:hover,
+.btn:focus {
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+}
+
+.btn-nav {
+  background-color: var(--color-primary-light);
+  border-color: var(--color-primary-light);
+  color: var(--color-primary);
+}
+
+.btn-nav:hover,
+.btn-nav:focus {
+  background-color: var(--color-primary-light);
+  border-color: var(--color-primary-light);
+  color: var(--color-accent);
+}

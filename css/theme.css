@@ -1,15 +1,28 @@
 :root {
---color-primary: goldenrod;
---color-primary-light: gold;
---color-secondary: lightcoral;
---color-accent: greenyellow;
---color-neutral-beige: #e2e2e2;
---color-whatever: peachpuff;
+--color-primary: #000;
+--color-primary-light: #fff;
+--color-secondary: #e4e4e4;
+--color-accent: #FFA000;
+--color-neutral-grey: #5c5c5c;
 
---fontprimary: "Alegreya Sans", "Trebuchet MS", Arial, sans-serif;
---font-secondary: "Source Code", Menlo, Consolas, monospace;
+--fontprimary: neue-haas-grotesk-display, sans-serif;
 }
 
 html {
   font-family: var(--font-primary);
+}
+
+a {
+  color: var(--color-accent);
+}
+
+a:hover,
+a:focus {
+  color: var(--color-primary);
+  transition: all .1s linear;
+}
+
+mark {
+  color: var(--color-primary);
+  background-color: var(--color-accent);
 }
