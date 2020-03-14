@@ -1,0 +1,24 @@
+title: "Forms"
+description:
+  Forms are for checkout purposes. They are used to obtain the user's information for shipping purposes.
+
+patterns:
+  phone-number-field:
+    title: "Phone Number Field"
+    description: Customer's phone number to easily access their account and purchase history information.
+    width: 20em
+
+  email-field:
+    title: "Email Field"
+    description: Customer's email to easily access their account and purchase history information.
+    width: 20em
+
+  address-field:
+    title: "Address Field"
+    description: Customer's address to enable company to send their products to.
+    width: 20em
+
+  dropdown:
+    title: "Dropdown Field"
+    description: Select your province.
+    width: 20em

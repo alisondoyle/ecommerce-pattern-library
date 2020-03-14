@@ -2,7 +2,10 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
-  font-url: "https://use.typekit.net/iuw2ono.css"
+  title: Sneakahead
+  description: |
+    A small business offering limited-edition sneakers.
+  font_url: "https://use.typekit.net/iuw2ono.css"
 
   colors:
     sidebar: "--color-secondary"
@@ -17,3 +20,6 @@ patternbot:
       My secondary colour is a light grey. The reason behind this is because I wanted only one accent colour and the rest to be shades of black. This colour is used in my sidebar text and product image background colours.
     colors.accent: |
       The colour that I chose as my accent colour is a bright orange because I feel that is gender-neutral and is easily readable. It pops really well off the page and will be used for navigation when a page is selected and when some buttons are selected. A tint of the accent colour will also be used on product photos when hovering above them to show what has been selected.
+  layouts:
+    default: |
+      This is the default layout for all pages on the website.
