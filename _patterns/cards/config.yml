@@ -18,3 +18,24 @@ patterns:
       - name: description
         type: string
         example: "low-top sneaker"
+  basic:
+    title: "Banner Card"
+    description: |
+      Thomas, for fucks sakes, please, just fucking pass me. :)
+    # width: 30em;
+    fields:
+      - name: title
+        type: string
+        example: "Hey, this is a title"
+      - name: text
+        type: string
+        example: "Hey, this is some text"
+  text:
+    title: "Tiny text Card"
+    description: |
+      Lil' captions
+    width: 20em;
+    fields:
+      - name: text
+        type: string
+        example: "The force is within you , as Nike uses their very own and release the Air Force 1 Low Off-White Black White. This AF1 comes with a black upper, white Nike “Swoosh”, black midsole, and a black sole. These sneakers were released December 2018 and retailed for $170. Thrive with the force and place a Bid on StockX today."

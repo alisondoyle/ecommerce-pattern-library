@@ -13,8 +13,16 @@ p {
   background-position: center center;
   background-size: cover;
   height: 20em;
+  /* z-index: -100000; */
 }
 
 .card-contents {
   background-color: var(--color-primary-light);
+  /* height: 10em; */
+  /* z-index: 100000; */
+}
+
+
+.text-card {
+  border-bottom: 20px solid var(--color-accent);
 }
